@@ -1,10 +1,11 @@
 <resources>
-    <string name="app_name">App</string>
+    <string name="app_name">WAIFU GENERATOR</string>
     <string name="new_pic">New Picture</string>
     <string name="save_pic">Save Picture</string>
     <string name="downloaded_pic">Downloaded Picture</string>
     <string name="field_hint">URL goes here</string>
 
     <string name="menu_settings">Settings</string>
-    <string name="button">Download Image</string>
+    <string name="let_s_generate_text">Let\'s generate some pictures!</string>
 </resources>
+

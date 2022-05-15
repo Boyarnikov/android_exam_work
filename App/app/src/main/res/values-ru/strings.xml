@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ГЕНЕРАТОР ВАЙФУ</string>
+    <string name="new_pic">Сгенеририть</string>
+    <string name="save_pic">Сохранить</string>
+    <string name="downloaded_pic">Картинка сохранена в галирею</string>
+    <string name="field_hint">Здесь будет ссылка на источник</string>
+
+    <string name="menu_settings">Настройки</string>
+    <string name="let_s_generate_text">Начнём генерировать!</string>
+</resources>
+

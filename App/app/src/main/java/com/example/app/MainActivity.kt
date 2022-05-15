@@ -51,6 +51,7 @@ class MainActivity : AppCompatActivity() {
 
             val randomValue = rand.nextInt(10000, 99999)
             urlImage = URL("https://www.thiswaifudoesnotexist.net/example-$randomValue.jpg")
+            urlField?.text = "thiswaifudoesnotexist.net/example-$randomValue.jpg"
             println(urlImage)
 
             val result: Deferred<Bitmap?> = GlobalScope.async {
@@ -63,8 +64,6 @@ class MainActivity : AppCompatActivity() {
                     val savedUri: Uri? = saveToInternalStorage(context)
                     mImageView.setImageURI(savedUri)
                 }
-
-                urlField?.text = urlImage.toString()
                 it.isEnabled = true
                 bar?.visibility = View.INVISIBLE
             }
